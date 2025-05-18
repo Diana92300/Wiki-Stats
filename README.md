@@ -23,12 +23,6 @@ A Rust tool for processing a ZIP of JSON-encoded articles and extracting key sta
 
 ## Usage
 
-Place your archive of JSON files in the project folder as `cod.zip`, then:
-
-```bash
-cargo run --release
-```
-
 * The program prints each processed filename to the console.
 * When all threads finish, it writes four sections into `output.txt`:
 
